@@ -1,0 +1,7 @@
+# Permitir todos os bots acessarem todo o site
+User-agent: *
+Disallow: /gerador_html*
+Allow: /
+
+# Sitemap
+Sitemap: Sitemap: https://blog-lojaskalfen.com.br/sitemap_index.xml
