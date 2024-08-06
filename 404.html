@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+      // Pega o caminho da URL atual
+      var path = window.location.pathname;
+
+      // Verifica se o caminho não termina com uma barra
+      if (!path.endsWith('/')) {
+        // Redireciona para a versão com barra final
+        window.location.href = path + '/';
+      }
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
+
