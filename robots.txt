@@ -4,4 +4,4 @@ Disallow: *.py
 Allow: /
 
 # Sitemap
-Sitemap: Sitemap: https://blog-lojaskalfen.com.br/sitemap_index.xml
+Sitemap:https://blog-lojaskalfen.com.br/sitemap_index.xml
