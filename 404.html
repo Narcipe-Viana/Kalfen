@@ -7,10 +7,9 @@
       // Pega o caminho da URL atual
       var path = window.location.pathname;
 
-      // Verifica se o caminho não termina com uma barra
-      if (!path.endsWith('/')) {
-        // Redireciona para a versão com barra final
-        window.location.href = path + '/';
+      // Verifica se o caminho termina com uma barra e remove se necessário
+      if (path.endsWith('/')) {
+        window.location.href = path.slice(0, -1); // Remove a barra final
       }
     </script>
   </head>
