@@ -152,3 +152,10 @@ status = 301
 from = "/edifier-w800bt-plus-review/"
 to = "/edifier-w800bt-plus-review"
 status = 301
+
+[[redirects]]
+from = "/pelicula-x-one-vale-a-pena/"
+to = "/pelicula-x-one-vale-a-pena"
+status = 301
+
+
